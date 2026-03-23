@@ -1,7 +1,7 @@
 
 
 
-function Square() {
+function Board() {
   return (
     <>
       <div className="board-row">
@@ -23,4 +23,4 @@ function Square() {
   )
 }
 
-export default Square
+export default Board
