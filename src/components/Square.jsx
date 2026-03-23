@@ -1,11 +1,11 @@
 
 
 
-function Square() {
+function Square({ value }) {
 
   return (
     <>
-      <button className="square">1</button>
+      <button className="square">{value}</button>
     </>
   )
 }
